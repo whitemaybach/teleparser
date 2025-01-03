@@ -13,7 +13,7 @@ except ImportError:
 # Получим данные от Telegram Users API.
 api_id = 26568341  # ID приложения. Его можно узнать на my.telegram.org
 api_hash = '88b246e6b0034d0e7c63de6131f9eb87'  # HASH код приложения. Его можно узнать на my.telegram.org
-phone_number = '+998900002201' # ваш номер телефона в международном формате.
+phone_number = '+9 ' # ваш номер телефона в международном формате.
 client = TelegramClient(phone_number, api_id, api_hash)
 
 def phone_require():
